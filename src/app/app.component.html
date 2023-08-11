@@ -1,20 +1,23 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+<nav class="navbar navbar-expand-lg navbar-light text-white bg-dark">
+  <a class="navbar-brand text-white bg-dark " routerLink="">News</a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active">Home</a>
+      <a class="nav-item nav-link text-white bg-dark" routerLink="">Live News <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link text-white bg-dark" routerLink="past">Past News <span class="sr-only">(current)</span></a>
+
     </div>
   </div>
 </nav>
-<app-news></app-news>
-
-<footer class="bg-light text-center text-lg-start mt-3 sticky-top">
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+<!-- 
+<footer class="bg-dark text-center text-lg-start mt-3 sticky-top">
+  <div class="text-center p-3" style="color: #ffffff;">
     © 2023 Copyright:
-    <a class="text-dark" href=" ">Utkarsh Gupta</a>
+    <a class="text-light" href=" ">Utkarsh Gupta</a>
   </div>
-  <!-- Copyright -->
-</footer>
+
+</footer> -->
+<router-outlet></router-outlet>

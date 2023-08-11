@@ -8,7 +8,7 @@ import { ApiService } from '../service/api.service';
 })
 export class NewsComponent implements OnInit{
   constructor(private api:ApiService){}
-  p:any;
+  p:any
 resultArticles:any=[]
   ngOnInit(): void {
       this.api.newsHeadlines().subscribe((value)=>{

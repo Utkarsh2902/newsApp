@@ -5,8 +5,22 @@
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    background-color: #f8ead7;
 }
 .card-title{
     font-weight: bold;
+}
+.navbar-toggler-icon{
+    background-color: #f8ead7;
+}
+
+.navbar-brand{
+    background-color: #f8ead7;
+    font-size: xxx-large;
+    margin-left: 9px;
+}
+
+.nav-item {
+    margin-left: 9px;
+    font-size: 22px;
 }

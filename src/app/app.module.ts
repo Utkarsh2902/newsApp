@@ -8,10 +8,12 @@ import { NewsComponent } from './news/news.component';
 import { ApiService } from './service/api.service';
 import{HttpClientModule} from '@angular/common/http';
 import {NgxPaginationModule} from 'ngx-pagination';
+import { PastnewsComponent } from './pastnews/pastnews.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NewsComponent
+    NewsComponent,
+    PastnewsComponent
   ],
   imports: [
     BrowserModule,
