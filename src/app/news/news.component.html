@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-lg-3 mt-3 mb-3" *ngFor="let newsarticles of resultArticles">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src={{newsarticles.urlToImage}} alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{newsarticles.title}}</h5>
+                <p class="card-text">{{newsarticles.description}}</p>
+                <a href="{{newsarticles.url}}" target="_blank" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+</div>
